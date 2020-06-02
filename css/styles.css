@@ -10189,6 +10189,9 @@ header.masthead .masthead-heading {
   display: block;
   margin: 0 auto;
 }
+#portfolio .portfolio-item .portfolio-link .img-fluid{
+  border-radius: 10px;
+}
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   display: flex;
   position: absolute;
@@ -10199,6 +10202,7 @@ header.masthead .masthead-heading {
   justify-content: center;
   opacity: 0;
   transition: opacity ease-in-out 0.25s;
+  border-radius: 10px;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   font-size: 1.25rem;
